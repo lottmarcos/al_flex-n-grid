@@ -1,10 +1,13 @@
-# Guia de estilos
+# SkateApp - Front End project created in an [Alura](https://www.alura.com.br/) class.
 
-Toda a estilização que será usada no projeto dentro do figma.
 
-[Link do projeto no figma](https://www.figma.com/file/ibWktwVpnog76rMYOdVhks/Dispondo-elementos-com-flexbox-e-grid?node-id=54%3A2358)
+## Style Guide
 
-## Fonte
+All ofthe stylization that was used in the project.
+
+[Project at Figma.](https://www.figma.com/file/ibWktwVpnog76rMYOdVhks/Dispondo-elementos-com-flexbox-e-grid?node-id=54%3A2358)
+
+### Fonts
 
 ```html
 Open Sans:
@@ -13,31 +16,31 @@ Open Sans:
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap">
 ```
 
-## Cores
+### Colors
 
-corpo: `#1D232A`
+body: `#1D232A`
 
-cabeçalho: `#1D232A`
+header: `#1D232A`
 
-cabeçalho mobile: `#15191C`
+mobile header: `#15191C`
 
-menu lateral: `#15191C`
+lateral menu: `#15191C`
 
-cartão: `#2C343A`
+card: `#2C343A`
 
-fonte: `#FFFFFF`
+font: `#FFFFFF`
 
-fonte alternativa: `#95999C`
+alternative font: `#95999C`
 
 links: `#0480DC`
 
-botão: `#0480DC`
+button: `#0480DC`
 
-sombras: `0px 4px 4px rgba(0, 0, 0, 0.16)`
+shadow: `0px 4px 4px rgba(0, 0, 0, 0.16)`
 
-## Ícones
+### Icons
 
-Estão dentro do arquivo de fonte `icones.ttf`. Para usar, primeiro importe a fonte no projeto usando `@font-face` e depois utilize os códigos abaixo para exibir o ícone.
+They are inside the `icons.ttf` font file. To use, first import the font into the project using `@font-face` and then use the code below to display the icon.
 
 ```css
 @font-face {
@@ -46,58 +49,54 @@ Estão dentro do arquivo de fonte `icones.ttf`. Para usar, primeiro importe a fo
 }
 ```
 
-> Cuidado com a localização do arquivo `icones.ttf`
+> Be careful with the file `icones.ttf`'s route. 
 
-Camisas = `\e900`
+Shirts = `\e900`
 
-Carrinho = `\e901`
+Shopping Cart = `\e901`
 
-Inicio = `\e902`
+Home = `\e902`
 
-Integrantes = `\e903`
+Crew = `\e903`
 
 Menu = `\e904`
 
-Moeda = `\e905`
+Coins = `\e905`
 
-Notificação = `\e906`
+Notifications = `\e906`
 
-Pico = `\e908`
+Spot = `\e908`
 
-Picos = `\e909`
+Spots = `\e909`
 
-Pinturas = `\e90a`
+Paintings = `\e90a`
 
 Play = `\e90b`
 
-Relogio = `\e90c`
+Clock = `\e90c`
 
-Seta-baixo = `\e90d`
+Down-Arrow = `\e90d`
 
 Videos = `\e90e`
 
-Visualizacao = `\e90f`
+Views Count = `\e90f`
 
-## Espaçamentos
+## Spacing
 
-Espaço interno botão: `8px`
+Button padding: `8px`
 
-Espaço entre elementos do botão: `8px`
+Element's margin: `16px/8px`
 
-Espaço entre elementos: `16px/8px`
+Spacing between the recents card title and its items: `24px`
 
-Espaçamento interno do corpo: `16px`
+## Size
 
-Espaçamento entre o título do cartão de recentes e seus itens: `24px`
+Mobile sceen size: `360px`
 
-## Tamanhos
+Desktop screen size: `1440px`
 
-Tamanho do dispositivo mobile: `360px`
+Max width of the main content: `1120px`
 
-Tamanho do dispositivo desktop: `1440px`
+Max width of any card in a Desktop: `256px`
 
-Largura máxima do conteúdo principal: `1120px`
-
-Largura máxima de um cartão desktop: `256px`
-
-Altura mínima de um cartão: `320px`
+Min height of a card: `320px`
