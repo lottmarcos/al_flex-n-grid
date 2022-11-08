@@ -1,4 +1,4 @@
-# SkateApp - Front End project created in an [Alura](https://www.alura.com.br/) class.
+# SkateApp | Front End project created in an [Alura](https://www.alura.com.br/) class.
 
 
 ## Style Guide
