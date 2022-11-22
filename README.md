@@ -3,7 +3,7 @@
 
 ## Style Guide
 
-All ofthe stylization that was used in the project.
+All ofthe stylization that was used in the project are located at Figma.
 
 [Project at Figma.](https://www.figma.com/file/ibWktwVpnog76rMYOdVhks/Dispondo-elementos-com-flexbox-e-grid?node-id=54%3A2358)
 
